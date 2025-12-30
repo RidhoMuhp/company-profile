@@ -5,7 +5,7 @@ export default function Testimonials() {
             <div className="bg-zinc-900 rounded-[40px] py-16 px-8 md:px-20 text-white relative overflow-hidden">
                 <div className="flex gap-8 overflow-x-auto pb-12 snap-x">
                 {[1, 2, 3].map((i) => (
-                    <div key={i} className="min-w-[100%] md:min-w-[600px] snap-center">
+                    <div key={i} className="min-w-[100%] md:min-w-[400px] snap-center">
                     <div className="relative border border-[#B9FF66] rounded-[40px] p-8 mb-8">
                         <p className="text-lg italic">
                         "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business."
